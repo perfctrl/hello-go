@@ -12,7 +12,7 @@ func handlerFunc(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprint(w, "This repository for recording learnning "+
 			"<a href=\"mailto:albert@example.com\">albert@example.com</a>")
 	} else {
-		fmt.Fprint(w, "<h1>not found</h1>")
+		fmt.Fprint(w, "<h1>not found page!</h1>")
 	}
 }
 
